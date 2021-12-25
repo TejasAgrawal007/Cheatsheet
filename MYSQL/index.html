@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheet - Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prism (1).css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="js/prism (2).js"></script>
+</head>
+
+<body>
+    <nav>
+        <span class="logo">
+            <img src="./img/copy.png" alt="logo.png">
+        </span>
+        <div class="content center">
+            This MySQL CheatSheet for You!
+        </div>
+    </nav>
+
+    <div class="container">
+        <ol>
+<li>How To Connect Zampp</li>
+<pre class="language-mysql"><code><pre>cd../..</pre>
+<pre>cd xampp/mysql/bin</pre>
+<pre>mysql -u root -p -h localhost</pre></code></pre>
+
+
+            <li>How to Show Database</li>
+            <pre class="language-mysql"> <code>show databases</code></pre>
+
+
+            <li>How To Create Database</li>
+            <pre class="language-mysql"><code>create database &lt;database name> </code></pre>
+
+
+            <li>How to Delete Database</li>
+            <pre class="language-mysql"><code>drop database &lt;database name> </code></pre>
+
+            <li>How To Check Current Database</li>
+            <pre class="language-mysql"><code>select database();</code></pre>
+
+
+            <li>How to use/switch Database</li>
+            <pre class="language-mysql"><code>use &lt;database name></code></pre>
+
+            <li>How to use/switch Database</li>
+            <pre class="language-mysql"><code>use &lt;database name></code></pre>
+
+            <li>How To create Tables</li>
+            <pre class="language-mysql"><code>Create table &lt;table-name>
+(&lt;column_name> &lt;data_type>,
+&lt;column_name> &lt;data_type>,
+&lt;column_name> &lt;data_type>);</code></pre>
+
+
+
+
+            
+            <li>Insert command</li>
+            <p>It will add data into the selected table</p>
+            <pre class="language-mysql"><code>Insert into &lt;table_name> [&lt;column-list>]
+                Values (&lt;value1>,&lt;value2>...);</code></pre>
+
+            
+            <li>How to show Database</li>
+            <p>It will retrieve all the data of the selected table</p>
+            <pre class="language-mysql"><code>Select * from &lt;tablename></code></pre>
+
+            
+            <li>Selecting Particular Rows</li>
+            <p>It will retrieve all the data of the row that will satisfy the condition</p>
+            <pre class="language-mysql"><code>Select * from &lt;table_name>
+                Where &lt;condition_to_satisfy>;</code></pre>
+
+            
+            <li>ALL Keyword</li>
+            <p>It will retrieve all the data of the selected column</p>
+            <pre class="language-mysql"><code>Select ALL &lt;column_name> from &lt;table_name>;</code></pre>
+
+
+
+
+
+
+    </div>
+
+
+    <!-- <div class="box">
+        <button class="btn">Enjoy</button>
+    </div> -->
+    </ol>
+    <footer>
+        <p class="foot">copyright &copy; || All side reserver by - Tejas Agrawal</p>
+    </footer>
+</body>
+
+</html>
